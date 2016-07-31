@@ -17,3 +17,6 @@ Sentinel provides monitoring and alerting for;
 This application will work best if it is running all of the time. The setup function provided will assist in enabling this feature if required.
 
 ##User Interface
+
+
+## Functional Detail
