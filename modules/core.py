@@ -68,7 +68,7 @@ def dbQuery(sql):
     # Run the requested Query
     try:
         dbCursor.execute(sql)                                                       # Execute the Query    
-        dbResult = dbCursor.fetchone()                                              # Get the results
+        dbResult = dbCursor.fetchall()                                              # Get the results
         logging.debug("dbQuery affected rows = {}".format(dbCursor.rowcount))       # Update log - number of rows
     except sqlite3.Error, e:                                                        # Trap for errors
         logging.error("CD003 - Database query failed to execute - %s" % e.args[0])  # Update log
