@@ -26,7 +26,7 @@ import time
 #                     Configuration items
 #===============================================================================
 
-logging.basicConfig(filename='Sentinel.log',level=logging.DEBUG)                            # Configure the log
+logging.basicConfig(filename='Sentinel.log',level=logging.INFO)                            # Configure the log
 
 #===============================================================================
 #                     Application Initialisation
