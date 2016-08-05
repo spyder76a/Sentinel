@@ -28,7 +28,6 @@ import time
 
 logging.basicConfig(filename='Sentinel.log',level=logging.DEBUG)                            # Configure the log
 
-
 #===============================================================================
 #                     Application Initialisation
 #===============================================================================
